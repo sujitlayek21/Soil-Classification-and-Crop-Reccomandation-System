@@ -1,0 +1,25 @@
+﻿Soil Type,Season,Corp1,Corp2,Corp3
+Alluvial,Rabi,wheat,barley,mustard
+Alluvial,Kharif,Maize,Rice,Sugarcane
+Alluvial,Zaid,Watermelon,muskmelon,cucumber
+Black,Rabi,Wheat,Gram (Chickpea),Barley
+Black,Kharif,Cotton,Soybean,Sorghum (Jowar)
+Black,Zaid,Sesame,Spinach,Cucumber
+Chalky,Rabi,Wheat,Barley,Lentils
+Chalky,Kharif,Sorghum (Jowar),Pearl Millet (Bajra),Maize
+Chalky,Zaid,Green Gram (Moong Dal),Muskmelon,Summer Squash
+Clay,Rabi,buckwheat,Broccoli,wheat
+Clay,Kharif,Rice,Soybean,Peanut
+Clay,Zaid,Ladyfinger,Beans,Cucurbits
+Mary,Rabi,Peas,Mustard,Linseed
+Mary,Kharif,Millet,Cotton,Groundnut
+Mary,Zaid,Muskmelon,Cucumber,Pumpkin
+Red,Rabi,Grams,Lentils,Linseed
+Red,Kharif,Soyabean,Paddy (Rice),Maize
+Red,Zaid,moong,sesame,bitter gourd
+Sand,Rabi,Carrot,Radish,Safflower
+Sand,Kharif,Peanuts,Cow Peas,Pulses
+Sand,Zaid,Watermelon,Cucumber,Groundnut
+Silt,Rabi,Wheat,Oats,Barley
+Silt,Kharif,Sugarcane,Soybean,Groundnut
+Silt,Zaid,Melon,Oakra,Cow Peas

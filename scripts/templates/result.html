@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron mt-4">
+    <h1 class="display-4">Prediction Result</h1>
+    <hr class="my-4">
+    {% if soil_type %}
+
+        {% if match == 0 %}
+            <h3>confidence is low, kindly reassure with more images. The model may predict wrong in some cases.</h3>
+        {% else %}
+            The model may predict wrong in some cases.
+        {% endif %}
+
+        <h3>Soil Type: {{ soil_type }}</h3>
+        <h3>Confidence: {{ confidence }}</h3>
+        <h3>Suitable Crops for {{ season }} Season:</h3>
+        <ul class="list-group">
+            {% for crop in suitable_crops %}
+                <li class="list-group-item">{{ crop }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        The model may predict wrong in some cases.
+        <h3>Confidence: {{ confidence }}</h3>
+        <h3>The confidence is too low to predict, use another image for better result.</h3>
+    {% endif %}
+    <a class="btn btn-primary mt-4" href="/" role="button">Go Back</a>
+</div>
+{% endblock %}
